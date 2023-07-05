@@ -1,0 +1,16 @@
+footer{
+    margin: 0px 5px 0px 5px;
+    background-color:white;
+    border-top: 1px solid orangered;
+
+}
+#footer2{
+    text-align: center;
+}
+.row ul{
+    list-style: none;
+    display: flex;
+}
+#sociales{
+    align-content: center;
+}

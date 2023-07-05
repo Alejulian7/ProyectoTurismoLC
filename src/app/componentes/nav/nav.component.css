@@ -1,0 +1,15 @@
+nav{
+    margin: 20px;
+    padding: 18px 15px 12px 15px;
+    background-color: white;
+    border: 1px solid orangered;
+}
+nav ul{
+    display: flex;
+    justify-content:space-evenly;
+    list-style: none;
+}
+nav ul li> a {
+    text-decoration: none;
+}
+
