@@ -1,36 +1,22 @@
 <div class="container">
-
     <section>
-        <div>
-            <article>
-               <form action="mail" method="post"> 
-                 <label for="nombre">nombre</label>
-                 
-                 <input type="text" name="nombre" id="nombre" minlength="3">
-                 <label for="apellido">apellido</label>
-                 
-                 <input type="text" name="name" id="apellido">
-               </form>
-               <form action="mail" method="post"> 
+        <article>
+            <form action="mail" method="post"> 
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" minlength="3">
+                <label for="apellido">apellido</label>
+                <input type="text" name="name" id="apellido">
                 <label for="Localidad">Localidad</label>
-                
                 <input type="text" name="localidad" id="nombre" minlength="15">
                 <label for="email">email</label>
-                
                 <input type="email" name="email" id="email">
-              </form>
-              <form action="mail" method="dialog">
-                <label for="Comentario">Comentario</label>
-                <input type="text" name="Comentario" id="Comentario" minlength="50">
-               <input type="submit"m>
-              </form>
-              <form action="mail" method="dialog">
-              <label for="Región">Región</label>
-              <input type="text" name="Región" id="Región" minlength="10">
+                <label for="Región">Región</label>
+                <input type="text" name="Región" id="Región" minlength="10">
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
             </form>
-               
-            </article>
-        </div>
+        </article>
     </section>
-
 </div>
